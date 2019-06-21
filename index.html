@@ -1,126 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Terminal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/calculator.css" />
-
-    <script src="assets/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./rmenu.css">
+    <script src="./menu.js" defer></script>
+    <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark w-100">
-        <a class="navbar-brand" href="index.html">DK Terminal</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="r-menu">
+        <button class="toggle-button top-btn" id="toggle-btn">
+            <i class="fa fa-bars" id="toggle-icon"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/david-kubos/" target="_blank">LinkedIn</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/DavKub" target="_blank">GitHub</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
-                </li>
-                
-            </ul>
-     
-    </div>
-
-        
+        <a href="https://github.com/DavKub/" target="_blank">
+            <button class="top-btn" id="btn">
+                <i class="fa fa-github-square fa-2x" style="color:white;"></i>
+            </button>
+        </a>
+        <a href="#">
+            <button class="top-btn" id="btn">
+                <i class="fa fa-linkedin fa-2x"></i>
+            </button>
+        </a>
+        <div class="brand-place">
+            <img src="./hexagon-photography-icon-logo.svg" class="brand"/>
+        </div>
+        <ul class="r-ul disabled" id="nav-ul">
+            <li><a href="#">My work</a></li>
+            <li><a href="#">Udemy projects</a></li>
+            <li><a href="#">Quick guides</a></li>
+            <li><a href="#">About me</a></li>
+        </ul>
     </nav>
-    
-    <main class="w-75 mx-auto">
-        <div class="alert alert-info text-center mt-4 col-11 col-md-9 col-lg-9 mx-auto mt-4" role="alert">
-            <h2>Projects</h2>
-        </div>
-        
-        <div class="row col-12 col-md-10 col-lg-9 mx-auto mt-4">
-
-            <div class="card-deck mx-auto">
-                
-                <div class="card" id="calculator">
-                    <img src="assets/images/calculator.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title"><a href="calculator.html">A simple calculator</a></p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-
-                <div class="w-100 d-block d-xl-none mt-4"></div>
-
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row col-12 col-md-10 col-lg-9 mx-auto my-4">
-            <div class="card-deck mx-auto">
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-
-                <div class="w-100 d-block d-xl-none mt-4"></div>
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/images/ytc.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-title">Under construction</p>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
-
-    </main>
-    
-
-    <footer class="w-100 text-center">
-        Created with&nbsp;&nbsp;<a class="navbar-brand" href="#"><img src="assets/images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">&nbsp;&nbsp;Bootstrap
-        </a>    
-    </footer>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
 </body>
 </html>
