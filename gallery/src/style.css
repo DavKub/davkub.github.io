@@ -22,7 +22,7 @@ No media query for `xs` since this is the default in Bootstrap */
     width: 100%;
     height: 67px;
     float: left;
-    background-color: rgb(122, 26, 65);
+    background-color: #800040;
     text-align: left;
 }
 
@@ -40,7 +40,7 @@ No media query for `xs` since this is the default in Bootstrap */
     background-color: #ffffff;
     position: absolute;
     display: block;
-    border-bottom: 1px dotted rgb(122, 26, 65);
+    border-bottom: 1px dotted #800040;
 }
 
 .toggle-button {
@@ -94,7 +94,7 @@ header {
         width: 100%;
         height: 67px;
         float: left;
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
         text-align: left;
     }
     
@@ -112,7 +112,7 @@ header {
         background-color: #ffffff;
         position: absolute;
         display: block;
-        border-bottom: 1px dotted rgb(122, 26, 65);
+        border-bottom: 1px dotted #800040;
     }
     
     .toggle-button {
@@ -168,8 +168,8 @@ header {
         background-color: #ffffff;
         position: absolute;
         display: block;
-        border-top: 1px solid rgb(122, 26, 65);
-        border-bottom: 1px solid rgb(122, 26, 65);
+        border-top: 1px solid #800040;
+        border-bottom: 1px solid #800040;
         
     }
     
@@ -203,7 +203,7 @@ header {
     }
 
     .r-ul li:hover {
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
         color: #ffffff;        
     }
 
@@ -252,7 +252,7 @@ header {
     }
 
     .r-ul li:hover {
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
         color: #ffffff;        
     }
 
@@ -262,7 +262,7 @@ header {
 
     .top-btn:hover{
         cursor: pointer;
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
         color: #1a1a1a;
     }
 
@@ -285,11 +285,11 @@ header {
 
     .top-btn:hover{
         cursor: pointer;
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
     }
 
     .r-ul li:hover {
-        background-color: rgb(122, 26, 65);
+        background-color: #800040;
         color: #ffffff;        
     }
 
