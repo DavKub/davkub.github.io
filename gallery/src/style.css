@@ -14,9 +14,6 @@ body {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
 @media only screen and (max-width: 575px) {
 .brand-place {
     width: 100%;
@@ -38,9 +35,10 @@ No media query for `xs` since this is the default in Bootstrap */
     height: 67px;
     width: 100%;
     background-color: #ffffff;
-    position: absolute;
+    float: left;
     display: block;
     border-bottom: 1px dotted #800040;
+    clear: both;
 }
 
 .toggle-button {
@@ -83,6 +81,25 @@ No media query for `xs` since this is the default in Bootstrap */
 
 header {
     display: none;
+}
+
+main {
+    overflow: hidden;
+    clear: both;
+}
+
+.card {
+    box-shadow: #747474 2px 2px 10px;
+    max-width:280px;
+    margin: 30px auto;
+    position: relative;
+    z-index: -5;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+
 }
 
 }
