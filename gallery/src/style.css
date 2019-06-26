@@ -22,7 +22,7 @@ No media query for `xs` since this is the default in Bootstrap */
     width: 100%;
     height: 67px;
     float: left;
-    background-color: rgb(187, 121, 184);
+    background-color: rgb(122, 26, 65);
     text-align: left;
 }
 
@@ -40,7 +40,7 @@ No media query for `xs` since this is the default in Bootstrap */
     background-color: #ffffff;
     position: absolute;
     display: block;
-    border-bottom: 1px dotted rgb(187, 121, 184);
+    border-bottom: 1px dotted rgb(122, 26, 65);
 }
 
 .toggle-button {
@@ -53,15 +53,15 @@ No media query for `xs` since this is the default in Bootstrap */
 }
 
 .r-ul li {
-    border-top: 1px solid rgb(161, 161, 161);
-    padding: 12px 16px;    
+    border-top: 1px solid rgb(161, 161, 161);  
+    padding: 10px 16px; 
 }
 
 .r-ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 200;    
 }
 
 .toggle-button {
@@ -94,7 +94,7 @@ header {
         width: 100%;
         height: 67px;
         float: left;
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
         text-align: left;
     }
     
@@ -112,7 +112,7 @@ header {
         background-color: #ffffff;
         position: absolute;
         display: block;
-        border-bottom: 1px dotted rgb(187, 121, 184);
+        border-bottom: 1px dotted rgb(122, 26, 65);
     }
     
     .toggle-button {
@@ -126,7 +126,7 @@ header {
     
     .r-ul li {
         border-top: 1px solid rgb(161, 161, 161);
-        padding: 12px 16px;    
+        padding: 10px 16px   
     }
     
     .r-ul li a {
@@ -134,6 +134,7 @@ header {
         text-decoration: none;
         font-size: 18px;
         font-weight: 200;
+         
     }
     
     .toggle-button {
@@ -167,8 +168,8 @@ header {
         background-color: #ffffff;
         position: absolute;
         display: block;
-        border-top: 1px solid rgb(187, 121, 184);
-        border-bottom: 1px solid rgb(187, 121, 184);
+        border-top: 1px solid rgb(122, 26, 65);
+        border-bottom: 1px solid rgb(122, 26, 65);
         
     }
     
@@ -191,17 +192,18 @@ header {
         display: inline-block;
         list-style-type: none;
         border-top: none;
-        padding: 0 10px;
+        padding: 0px;
     }
 
     .r-ul li a {
-        display: block;
+        display: inline-block;
         line-height: 67px;
         color: #1a1a1a;
+        padding: 0px 16px;
     }
 
     .r-ul li:hover {
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
         color: #ffffff;        
     }
 
@@ -242,16 +244,15 @@ header {
         display: inline-block;
         list-style-type: none;
         border-top: none;
-        padding: 0 10px;
     }
 
     .r-ul li a {
-        display: block;
+        display: inline-block;
         line-height: 67px;
     }
 
     .r-ul li:hover {
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
         color: #ffffff;        
     }
 
@@ -261,7 +262,7 @@ header {
 
     .top-btn:hover{
         cursor: pointer;
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
         color: #1a1a1a;
     }
 
@@ -284,11 +285,11 @@ header {
 
     .top-btn:hover{
         cursor: pointer;
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
     }
 
     .r-ul li:hover {
-        background-color: rgb(187, 121, 184);
+        background-color: rgb(122, 26, 65);
         color: #ffffff;        
     }
 
