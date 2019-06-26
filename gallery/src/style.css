@@ -19,18 +19,19 @@ No media query for `xs` since this is the default in Bootstrap */
 
 @media only screen and (max-width: 575px) {
 .brand-place {
-    width: 67px;
+    width: 100%;
     height: 67px;
     float: left;
     background-color: rgb(187, 121, 184);
-    text-align: center;
+    text-align: left;
 }
 
 .brand {
-    margin-top: 22px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 400;
     color: white;
+    margin-top: 18px;
+    margin-left: 10px;
 }
 
 .r-menu {
@@ -63,14 +64,14 @@ No media query for `xs` since this is the default in Bootstrap */
     font-weight: 200;
 }
 
-.top-btn {
+.toggle-button {
     float: right;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;    
     width: 39px;
     height: 39px;
-    margin-top: 15px;
+    margin-top: -35px;
     margin-right: 15px;
     overflow: hidden;
     background: transparent;
@@ -90,18 +91,19 @@ header {
 @media only screen and (min-width: 576px) {
   
     .brand-place {
-        width: 67px;
+        width: 100%;
         height: 67px;
         float: left;
         background-color: rgb(187, 121, 184);
-        text-align: center;
+        text-align: left;
     }
     
     .brand {
-        margin-top: 22px;
-        font-size: 20px;
+        font-size: 28px;
         font-weight: 400;
         color: white;
+        margin-top: 18px;
+        margin-left: 10px;
     }
     
     .r-menu {
@@ -134,14 +136,14 @@ header {
         font-weight: 200;
     }
     
-    .top-btn {
+    .toggle-button {
         float: right;
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;    
         width: 39px;
         height: 39px;
-        margin-top: 15px;
+        margin-top: -35px;
         margin-right: 15px;
         overflow: hidden;
         background: transparent;
