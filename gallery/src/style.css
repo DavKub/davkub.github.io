@@ -362,6 +362,10 @@ footer p {
         display: none;
     }
 
+    main {
+        margin-bottom: 60px;
+    }
+    
     header {
         display: block;
     }
@@ -369,6 +373,12 @@ footer p {
     .card {
         max-width: 28vw;
         margin: 20px;
+    }
+    
+    footer {
+        left: 0;
+        bottom: 0;
+        position: fixed;
     }
 }
 
@@ -406,4 +416,6 @@ footer p {
         max-width: 15vw;
         margin: 20px;
     }
+
+    
 }
