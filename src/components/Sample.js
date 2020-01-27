@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import '../App.css';
 
 const Sample = () => {
-  return <div>Working</div>;
+  return <Fragment></Fragment>;
 };
 
 export default Sample;
